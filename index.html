@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  </head>
+  <body>
+
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <main class="app-container">
+        <div class="glass-card">
+            <header class="card-header">
+                <h1 class="app-title">Voice Search</h1>
+                <p class="app-subtitle">Speak naturally or type to search the web</p>
+            </header>
+
+            <div class="search-bar-wrapper " id="searchBarWrapper">
+                <div class="input-group">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input
+                    type="text"
+                    id="searchInput"
+                    class="search-input"
+                    placeholder="Type or Cilck mic to speak..."
+                    autocomplete="off"
+                    spellcheck="false"
+                    >
+
+                    <button type="button" id="clearBtn" class="clear-btn hidden" aria-label="Clear input" title="Clear input">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <div class="mic-container">
+                    <div class="ripple-ring"></div>
+                    <div class="ripple-ring"></div>
+                    <div class="ripple-ring"></div>
+                    <button
+                    type="button"
+                    id="micBtn"
+                    class="mic-btn"
+                    aria-label="Start voice search"
+                    title="Click to speak"
+                    tabindex="0"
+                    >
+                    <i class="fa-solid fa-microphone mic-icon"></i>
+                </button>
+                </div>
+
+                <button type="button" id="searchSubmitBtn" class="search-submit-btn" aria-label="Submit search" title="Search Google">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <div class="controls-row">
+                <div class="lang-selector-group">
+                    <label for="langSelect" class="sr-only">Language</label>
+                    <select id="langSelect" class="lang-select" aria-label="Select speech language">
+                        <option value="en-IN">English (India)</option>
+                        <option value="en-US">English (US)</option>
+                        <option value="hi-IN">Hindi (हिन्दी)</option>
+                    </select>
+                </div>
+                <div class="status-container" aria-live="polite" id="statusText">
+                    Tap the mic and speak
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-searches-container" id="recentContainer">
+            <div class="recent-header hidden" id="recentHeader">
+                <span>Recent Searches</span>
+                <button type="button" id="clearHistoryBtn" class="clear-history-btn">Clear all</button>
+            </div>
+            <div class="chips-list" id="chipsList"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
