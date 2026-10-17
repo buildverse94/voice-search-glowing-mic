@@ -114,7 +114,7 @@ function toggleListening() {
     } else {
         startListening();
     }
-}cd 
+}
 
 //update ui state 
 function updateUI(state, message = '') {
