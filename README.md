@@ -35,7 +35,7 @@ voice-search-mic/
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+https://github.com/buildverse94/voice-search-glowing-mic/tree/main
 ```
 
 ### 2. Open the Project Folder
@@ -67,7 +67,7 @@ Microphone access and speech recognition may require HTTPS or localhost, dependi
 
 Learn how to build this project step by step using HTML, CSS, and JavaScript.
 
-**YouTube Tutorial:** [Add Your YouTube Video Link Here]
+**YouTube Tutorial:** https://youtu.be/n5DLNli6ims?si=f4GwDdmRET01DDzX
 
 ## 👨‍💻 Author
 
@@ -76,7 +76,7 @@ Learn how to build this project step by step using HTML, CSS, and JavaScript.
 Explore creative frontend projects, interactive UI designs, animations, and web development tutorials.
 
 - **GitHub:** [Add Your GitHub Profile Link]
-- **YouTube:** [BuildVerseHub](ADD_YOUR_YOUTUBE_CHANNEL_LINK_HERE)
+- **YouTube:** [BuildVerseHub]https://www.youtube.com/@BuildVerseHub-x1u
 
 ## 📄 License
 
