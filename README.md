@@ -75,7 +75,7 @@ Learn how to build this project step by step using HTML, CSS, and JavaScript.
 
 Explore creative frontend projects, interactive UI designs, animations, and web development tutorials.
 
-- **GitHub:** [Add Your GitHub Profile Link]
+- **GitHub:** https://github.com/buildverse94
 - **YouTube:** [BuildVerseHub]https://www.youtube.com/@BuildVerseHub-x1u
 
 ## 📄 License
